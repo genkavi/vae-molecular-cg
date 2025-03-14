@@ -26,19 +26,19 @@ pip install -e .
 ### VAE Coarse-Graining
 
 ```bash
-python examples/run_vae_pipeline.py your_trajectory.pdb --encoding-dim 1 --beta 0.01
+python examples/run_vae_pipeline.py your_trajectory.xtc --topology your_topology.pdb --encoding-dim 1 --beta 0.01
 ```
 
 ### PCA Coarse-Graining
 
 ```bash
-python examples/run_pca_pipeline.py your_trajectory.pdb --encoding-dim 1
+python examples/run_pca_pipeline.py your_trajectory.xtc --topology your_topology.pdb --encoding-dim 1
 ```
 
 ### Compare Methods
 
 ```bash
-python examples/compare_methods.py your_trajectory.pdb --encoding-dim 2
+python examples/compare_methods.py your_trajectory.xtc --topology your_topology.pdb --encoding-dim 2
 ```
 
 ## Usage Guide
